@@ -889,7 +889,7 @@ sub PrintProportionalResults {
 	    # dprint flatten(renumber($curr_comm)).' vs. '.flatten(renumber($new_comm)).":$cr";
 	    my $bestpref = 0;
 	    my $bestpreffor = 0;
-	    my $bestprefagainst = $num_choices;
+	    my $bestprefagainst = $num_votes;
 	    my $bestipref = 0;
 	    my $bestjpref = 0;
 	    $seen{$curr_comm} = $seen{$new_comm} = 1;
